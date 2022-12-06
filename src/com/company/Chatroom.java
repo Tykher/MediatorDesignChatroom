@@ -11,6 +11,7 @@ public class Chatroom {
     }
 
     public void addMember(Chatter chatter){
+        chatter.chatroom = this;
         members.add(chatter);
     }
 
